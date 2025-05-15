@@ -11,7 +11,7 @@ const AppContextProvider = (props) => {
   const navigate = useNavigate();
   const currencySymbol = "$";
   const [doctors, setDoctors] = useState([]);
-  const backendUrl = "https://lung-cancer-detection-backend.onrender.com/";
+  const backendUrl = "https://lung-cancer-detection-backend.onrender.com";
   const [token, setToken] = useState(
     localStorage.getItem("token") ? localStorage.getItem("token") : ""
   );
